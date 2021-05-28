@@ -1,2 +1,2 @@
-### Todo-App
-# This is my first javaScript Project. 
+### Todo-App ✌
+# This is my first javaScript Project. 😁
