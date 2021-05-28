@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;;
+}
+
+
+body{
+	background-color: #fff5fd;
+}
+
+.container{
+	margin: auto;
+	width: 80vw;
+}
+
+.header{
+	margin-top: 3rem;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	color: #022e57;
+	text-align: center;
+}
+.formDiv{
+	margin-top: 3rem;
+	margin-bottom: 52px;
+	display: flex;
+	justify-content: center;
+}
+#newTask{
+	margin-right: 25px;
+	width: 40%;
+	padding: 12px 15px;
+	background-color: #ff96ad;
+	border-radius: 12px;
+	border: none;
+	outline: none;
+	box-shadow: 0 8px 6px -6px black;
+	font-weight: bolder;
+}
+
+#addbtn{
+	padding: 12px 15px;
+	font-weight: bolder;
+	box-shadow: 0 8px 6px -6px black;
+	background-color: #005a8d;
+	border: none;
+	border-radius: 12px;
+}
+#addbtn:hover{
+	background-color: #1c78ad;
+}
+
+#taskes{
+	margin-top: 2rem;
+}
+
+#taskes {
+	width: 800px;
+	margin: auto;
+	display: block;
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+p{
+	margin-top: 32px;
+	background-color: #ff96ad;
+	padding: 12px 25px;
+	border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+}
